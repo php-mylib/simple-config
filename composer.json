@@ -1,9 +1,9 @@
 {
-  "name": "mylib/simple-config",
+  "name": "toolkit/simple-config",
   "type": "library",
   "description": "some helper tool library of the php",
   "keywords": ["library","tool","php"],
-  "homepage": "https://github.com/php-mylib/simple-config",
+  "homepage": "https://github.com/php-toolkit/simple-config",
   "license": "MIT",
   "authors": [
     {
@@ -14,11 +14,11 @@
   ],
   "require": {
     "php": ">=7.0.0",
-    "mylib/arr-utils": "^1.0.0"
+    "toolkit/arr-utils": "^1.0.0"
   },
   "autoload": {
     "psr-4": {
-      "MyLib\\SimpleConfig\\" : "src/"
+      "Toolkit\\SimpleConfig\\" : "src/"
     }
   },
   "suggest": {
